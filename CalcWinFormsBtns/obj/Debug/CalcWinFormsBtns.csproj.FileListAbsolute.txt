@@ -1,0 +1,9 @@
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalcWinFormsBtns\bin\Debug\CalcWinFormsBtns.exe.config
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalcWinFormsBtns\bin\Debug\CalcWinFormsBtns.exe
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalcWinFormsBtns\bin\Debug\CalcWinFormsBtns.pdb
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalcWinFormsBtns\obj\Debug\CalcWinFormsBtns.csprojResolveAssemblyReference.cache
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalcWinFormsBtns\obj\Debug\CalcWinFormsBtns.FormCalcBtns.resources
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalcWinFormsBtns\obj\Debug\CalcWinFormsBtns.Properties.Resources.resources
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalcWinFormsBtns\obj\Debug\CalcWinFormsBtns.csproj.GenerateResource.Cache
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalcWinFormsBtns\obj\Debug\CalcWinFormsBtns.exe
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalcWinFormsBtns\obj\Debug\CalcWinFormsBtns.pdb

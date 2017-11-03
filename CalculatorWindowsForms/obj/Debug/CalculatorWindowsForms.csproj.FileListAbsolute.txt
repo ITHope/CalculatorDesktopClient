@@ -1,0 +1,9 @@
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalculatorWindowsForms\obj\Debug\CalculatorWindowsForms.csprojResolveAssemblyReference.cache
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalculatorWindowsForms\obj\Debug\CalculatorWindowsForms.Form1.resources
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalculatorWindowsForms\obj\Debug\CalculatorWindowsForms.Properties.Resources.resources
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalculatorWindowsForms\obj\Debug\CalculatorWindowsForms.csproj.GenerateResource.Cache
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalculatorWindowsForms\bin\Debug\CalculatorWindowsForms.exe.config
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalculatorWindowsForms\bin\Debug\CalculatorWindowsForms.exe
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalculatorWindowsForms\bin\Debug\CalculatorWindowsForms.pdb
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalculatorWindowsForms\obj\Debug\CalculatorWindowsForms.exe
+E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\CalculatorWindowsForms\obj\Debug\CalculatorWindowsForms.pdb
