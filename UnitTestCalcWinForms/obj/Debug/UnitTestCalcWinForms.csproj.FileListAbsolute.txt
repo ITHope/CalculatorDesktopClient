@@ -16,3 +16,7 @@ E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\UnitTestCalcWinForms\bin
 E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\UnitTestCalcWinForms\obj\Debug\UnitTestCalcWinForms.csprojResolveAssemblyReference.cache
 E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\UnitTestCalcWinForms\obj\Debug\UnitTestCalcWinForms.dll
 E:\CSharpDev\Projects\Calculator\CalculatorWindowsForms\UnitTestCalcWinForms\obj\Debug\UnitTestCalcWinForms.pdb
+C:\Users\Student\Documents\WizDevCSharp\2017.11.03\CalculatorWindowsForms\UnitTestCalcWinForms\obj\Debug\UnitTestCalcWinForms.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\WizDevCSharp\2017.11.03\CalculatorWindowsForms\UnitTestCalcWinForms\obj\Debug\UnitTestCalcWinForms.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\WizDevCSharp\2017.11.03\CalculatorWindowsForms\UnitTestCalcWinForms\obj\Debug\UnitTestCalcWinForms.dll
+C:\Users\Student\Documents\WizDevCSharp\2017.11.03\CalculatorWindowsForms\UnitTestCalcWinForms\obj\Debug\UnitTestCalcWinForms.pdb
