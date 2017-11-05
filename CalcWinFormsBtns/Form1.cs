@@ -15,40 +15,9 @@ namespace CalcWinFormsBtns
 {
     public partial class FormCalcBtns : Form
     {
-        HttpClient client;
-        Thread thread;
-        string ip;
-
         public FormCalcBtns()
         {
-            client = new HttpClient();
-            thread = new Thread(GetAnswer);
-            ip = "http://localhost:8080/";
-            if (thread.IsAlive == false)
-                thread.Start();
-
             InitializeComponent();
-        }
-
-        private async void GetAnswer()
-        {
-            while (true)
-            {
-                try
-                {
-                    string response = await client.GetStringAsync(ip + "?check=true");
-                    string[] param = response.Split('=');
-                    if (param[0] == "res")
-                        tbCalc.Text = param[1];
-                    else
-                        tbCalc.Text = param[0];
-                }
-                catch (Exception e)
-                {
-                    tbCalc.Text = e.ToString();
-                }
-                Thread.Sleep(500);
-            }
         }
 
         private void btnNum_Click(object sender, EventArgs e)
@@ -78,9 +47,9 @@ namespace CalcWinFormsBtns
             if (op != '.' && parts.Length == 2)
             {
                 if (formula.StartsWith("-"))
-                    tbCalc.Text = CalcAsync(-Int32.Parse(parts[0]), Int32.Parse(parts[1]), op).ToString();
+                    tbCalc.Text = CalcAsync(-Int32.Parse(parts[0]), Int32.Parse(parts[1]), op).Result.ToString();
                 else
-                    tbCalc.Text = CalcAsync(Int32.Parse(parts[0]), Int32.Parse(parts[1]), op).ToString();
+                    tbCalc.Text = CalcAsync(Int32.Parse(parts[0]), Int32.Parse(parts[1]), op).Result.ToString();
 
 
                 //if (formula.StartsWith("-"))
@@ -92,19 +61,32 @@ namespace CalcWinFormsBtns
 
         }
 
-        public async void CalcAsync(int a1, int a2, char op)
+        public async Task<int> CalcAsync(int a1, int a2, char op)
         {
-            try
-            {
-                var response = await client.PostAsync(ip, new StringContent("num1=" + a1 + "&num2=" + a2 + "op=" + op));
-                string content = await response.Content.ReadAsStringAsync();
-                if (content == "received")
-                    tbCalc.Text = "received";
-            }
-            catch
-            {
-                tbCalc.Text += "connection failed";
-            }
+			int res = 0;
+			try
+			{
+				var request = "http://localhost:8090/?num1=" + a1 + "&num2=" + a2 + "&op=" + op;
+				using (HttpClient client = new HttpClient())
+				{
+					using (HttpResponseMessage response = await client.GetAsync(request))
+					{
+						using (HttpContent content = response.Content)
+						{
+							string result = await content.ReadAsStringAsync();
+							if (result != null && result.Length >= 50)
+							{
+								Console.WriteLine(result.Substring(0, 50) + "...");
+							}
+						}
+					}
+				}
+			}
+			catch
+			{
+				tbCalc.Text += "connection failed";
+			}
+			return 213;
         }
 
 
