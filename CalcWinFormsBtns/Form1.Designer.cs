@@ -191,7 +191,7 @@
             this.btnRes.TabIndex = 15;
             this.btnRes.Text = "=";
             this.btnRes.UseVisualStyleBackColor = true;
-            this.btnRes.Click += new System.EventHandler(this.btnRes_Click);
+            this.btnRes.Click += new System.EventHandler(this.btnRes_ClickAsync);
             // 
             // btn0
             // 
