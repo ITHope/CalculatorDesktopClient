@@ -22,7 +22,7 @@ namespace UITestCalcWinForms
         [TestInitialize]
         public void SetUp()
         {
-            application = Application.Launch("E:\\CSharpDev\\Projects\\Calculator\\CalculatorWindowsForms\\CalculatorWindowsForms\\bin\\Debug\\CalculatorWindowsForms.exe");
+            application = Application.Launch("..\\..\\..\\CalculatorWindowsForms\\bin\\Debug\\CalculatorWindowsForms.exe");
             Assert.IsNotNull(application);
         }
 
