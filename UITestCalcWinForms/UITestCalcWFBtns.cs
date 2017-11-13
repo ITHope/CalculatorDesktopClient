@@ -21,7 +21,7 @@ namespace UITestCalcWinForms
         [TestInitialize]
         public void SetUp()
         {
-            application = Application.Launch("E:\\CSharpDev\\Projects\\Calculator\\CalculatorWindowsForms\\CalcWinFormsBtns\\bin\\Debug\\CalcWinFormsBtns.exe");
+            application = Application.Launch("..\\..\\..\\CalculatorWindowsForms\\CalcWinFormsBtns\\bin\\Debug\\CalcWinFormsBtns.exe");
             Assert.IsNotNull(application);
         }
 
